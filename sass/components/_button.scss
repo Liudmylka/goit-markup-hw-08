@@ -1,0 +1,110 @@
+.hero__order {
+  align-items: center;
+  color: var(--title);
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background: var(--color-link);
+  margin: 0 auto;
+  min-width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.button {
+  color: var(--main-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background: var(--button);
+  border-radius: 4px;
+  border: none;
+  height: 38px;
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: var(--color-link);
+    color: var(--title);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+  }
+}
+.agreement__form {
+  width: 200px;
+  height: 50px;
+  background: var(--color-link);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  letter-spacing: 0.06em;
+  color: var(--title);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+}
+
+.modal__close {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--title);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  right: 8px;
+  top: 8px;
+
+  &:hover,
+  &:focus {
+    color: var(--color-link);
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.accept__button {
+  min-width: 200px;
+  height: 50px;
+  background: var(--color-link);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--title);
+  margin: 0px auto;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-right: 55px;
+  padding-bottom: 10px;
+  padding-left: 56px;
+}

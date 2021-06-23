@@ -1,0 +1,77 @@
+.person__icon {
+  position: absolute;
+  left: 15px;
+  top: 40px;
+  padding-right: 5px;
+  transform: translateY(-50%);
+
+  &:hover,
+  &:focus {
+    fill: var(--color-link);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.mail-link {
+  fill: currentColor;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  margin-top: 0px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    fill: var(--color-link);
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.phone {
+  fill: currentColor;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  margin-top: 0px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+
+  &:hover,
+  &:focus,
+  &:active {
+    fill: var(--color-link);
+  }
+}
+.group__icon {
+  width: 70px;
+  height: 70px;
+}
+.content__card-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.agreement__icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: 5px;
+  left: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.modal__icon {
+  fill: currentColor;
+  width: 11px;
+  height: 11px;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &:hover,
+  &:focus {
+    color: var(--color-link);
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

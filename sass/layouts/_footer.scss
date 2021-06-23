@@ -1,0 +1,133 @@
+.main .container {
+  display: flex;
+  align-items: baseline;
+}
+.main {
+  background: var(--background-hero);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  text-align: left;
+}
+.main__link__info {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-align: left;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--color-link);
+  }
+}
+.main__link {
+  padding: 0px;
+  display: inline;
+  justify-content: flex-start;
+  margin-top: 9px;
+}
+.main__address {
+  color: var(--title);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.network {
+  margin-left: 70px;
+}
+.network__join {
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  color: var(--title);
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.network__link {
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  align-items: center;
+  padding-left: 0px;
+}
+.network__link__partner {
+  margin-right: 10px;
+}
+.network__link__last {
+  margin-right: 0px;
+}
+
+.network__site {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-top: 0px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--title);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--title);
+    background-color: var(--color-link);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.subscription {
+  margin-left: 93px;
+  margin-right: 0px;
+}
+.subscription__title {
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  color: var(--title);
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.subscription__form {
+  display: flex;
+  margin-top: 20px;
+  border: none;
+}
+.subscription__form__mail {
+  width: 358px;
+  height: 50px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  position: relative;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.agreement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  border: none;
+}
